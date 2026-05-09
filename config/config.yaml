@@ -55,6 +55,7 @@ schedule:
 platforms:
   enabled: true                         # 是否启用热榜平台抓取
   sources:
+    # === 原有平台 ===
     - id: "toutiao"
       name: "今日头条"
     - id: "baidu"
@@ -78,7 +79,29 @@ platforms:
     - id: "zhihu"
       name: "知乎"
 
+    # === 新增：科技商业类 ===
+    - id: "36kr"
+      name: "36氪"
+    - id: "xueqiu"
+      name: "雪球"
+    - id: "huxiu"
+      name: "虎嗅"
+    - id: "geekpark"
+      name: "极客公园"
 
+    # === 新增：财经资讯类 ===
+    - id: "eastmoney"
+      name: "东方财富"
+    - id: "caixin"
+      name: "财新"
+    - id: "yicai"
+      name: "第一财经"
+
+    # === 新增：消费/社区类 ===
+    - id: "douban"
+      name: "豆瓣"
+    - id: "smzdm"
+      name: "什么值得买"
 
 # ===============================================================
 # 3. 数据源 - RSS 订阅
@@ -126,6 +149,16 @@ rss:
     - id: "yahoo-finance"
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
+
+ - id: "latepost"
+      name: "晚点LatePost"
+      url: "https://www.latepost.com/rss"
+      
+    - id: "tmtpost"
+      name: "钛媒体"
+      url: "https://www.tmtpost.com/rss"
+
+
 
     # 自定义源示例
     # - id: "custom-feed"
