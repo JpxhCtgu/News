@@ -150,7 +150,7 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
- - id: "latepost"
+    - id: "latepost"
       name: "晚点LatePost"
       url: "https://www.latepost.com/rss"
       
